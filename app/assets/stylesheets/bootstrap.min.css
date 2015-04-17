@@ -1086,7 +1086,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: #9D2D00;
     background-color: #fff
 }
 button,
@@ -1098,12 +1098,12 @@ textarea {
     line-height: inherit
 }
 a {
-    color: #337ab7;
+    color: #FF7E4B;
     text-decoration: none
 }
 a:focus,
 a:hover {
-    color: #23527c;
+    color: #FF9B73;
     text-decoration: underline
 }
 a:focus {
@@ -1336,7 +1336,7 @@ mark {
     text-transform: capitalize
 }
 .text-muted {
-    color: #777
+    color: #FF7E4B
 }
 .text-primary {
     color: #337ab7
