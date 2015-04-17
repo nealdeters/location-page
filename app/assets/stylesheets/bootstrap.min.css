@@ -4615,11 +4615,11 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     background-color: transparent
 }
 .navbar-inverse .navbar-toggle {
-    border-color: #333
+    border-color: #FFC2AA
 }
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-    background-color: #333
+    background-color: #9D2D00
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff

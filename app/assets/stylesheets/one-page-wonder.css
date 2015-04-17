@@ -176,3 +176,11 @@ footer {
         margin-left: 0;
     }
 }
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}

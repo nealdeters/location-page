@@ -1,6 +1,6 @@
 module ApplicationHelper
   def full_title(page_title)
-    base_title = "My Location - Lincoln Park Office - Chicago, IL 60614"
+    base_title = "MyFlowerShop - Lincoln Park Office - Chicago, IL 60614"
     if page_title.empty?
       base_title
     else
