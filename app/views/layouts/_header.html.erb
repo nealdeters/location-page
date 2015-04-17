@@ -1,4 +1,5 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -8,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">MyFlowerShop</a>
+                <a class="navbar-brand" href="#">MyFlowerShop</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -23,7 +24,18 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-                <a class="navbar-brand right" href="tel:123-456-7890">Call Us: 123-456-7890</a>
+                
+                <span id="phone_number"><span>
+                
+                <script>
+					$(document).ready(function(){ 
+						if ($(window).width() > 768) {
+							$( "#phone_number" ).append("<span class='navbar-brand right'>Call Us: 123-456-7890</span>");
+						}
+
+					});
+                </script>
+            
             </div>
             <!-- /.navbar-collapse -->
         </div>

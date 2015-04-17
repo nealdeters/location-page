@@ -1,35 +1,49 @@
-
+		<section id="about">
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="/assets/flowers.jpg" width="500px" height="500px">
             <h2 class="featurette-heading">We Are
                 <span class="text-muted">Lincoln Park Florists</span>
             </h2>
             <p class="lead">At MyFlowerShop in Lincoln Park, we strive to give the best floral arrangements the area has to offer. From wedding bouquets, to simple everyday arrangments, we have it all!</p>
         </div>
-
+		</section>
+		
+		<section id="services">
         <hr class="featurette-divider">
-
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-left" src="/assets/flowertruck.jpg" width="500px" height="500px">
             <h2 class="featurette-heading">Did I Mention We Deliver?
                 <span class="text-muted">Call for a quick delivery</span>
             </h2>
             <p class="lead">We all live busy lives. If you're in need of a quick arrangement, give us a ring. If you call between 8am-12pm, and we can guarentee your delivery by 5pm or your money back!</p>
         </div>
+        </section>
 
+		<section id="contact">
         <hr class="featurette-divider">
-
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="/assets/orangeflower.jpg" width="500px" height="500px">
             <h2 class="featurette-heading">Contact Us
                 <span class="text-muted">if you have any questions</span>
             </h2>
-            <p class="lead">If you have any questions, give us a call at <a href="tel:123-456-7890">123-456-7890</a>. You can also reach us at <a href="mailto:support@myflowershop.com">support@myflowershop.com</a></p>
+            <p class="lead">If you have any questions, give us a call at <span id="contact_phone_number"></span>. You can also reach us at <a href="mailto:support@myflowershop.com">support@myflowershop.com</a></p>
         </div>
-
+		</section>
         <hr class="featurette-divider">
+
+        <script>
+			$(document).ready(function(){ 
+				if ($(window).width() < 768) {
+					$( "#contact_phone_number" ).append( "<a href='tele:123-456-7890'>123-456-7890</a>" );
+				} 
+				else {
+					$( "#contact_phone_number" ).append("123-456-7890");
+				}
+
+			});
+        </script>
